@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+  node-red:
+      image: nodered/node-red:latest-18
+      container_name: nodered
+      restart: always
+      volumes:
+        - ./data:/data
+      ports:
+        - 1880:1880
+      user: root:root
+volumes:
+  node-red-data:
+    name: node-red-data
