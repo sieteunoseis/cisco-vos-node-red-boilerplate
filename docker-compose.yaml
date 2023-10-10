@@ -2,8 +2,9 @@ version: '3.3'
 services:
   node-red:
       image: nodered/node-red:latest-18
-      container_name: nodered
+      container_name: node-red
       restart: always
+      entrypoint: /data/entrypoint.sh
       volumes:
         - ./data:/data
       ports:
