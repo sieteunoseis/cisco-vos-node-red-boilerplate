@@ -6,10 +6,11 @@ Node-Red information can be found at [nodered.org](https://nodered.org/).
 
 Included packages:
 
- - [Cisco AXL](https://www.npmjs.com/package/cisco-axl).
- - [Cisco Perfmon](https://www.npmjs.com/package/cisco-perfmon).
- - [Cisco Risport](https://www.npmjs.com/package/cisco-risport).
- - [Cisco DIME](https://www.npmjs.com/package/cisco-dime).
+ - [Cisco AXL](https://www.npmjs.com/package/cisco-axl)
+ - [Cisco Perfmon](https://www.npmjs.com/package/cisco-perfmon)
+ - [Cisco Risport](https://www.npmjs.com/package/cisco-risport)
+ - [Cisco DIME](https://www.npmjs.com/package/cisco-dime)
+ - [FlowFuse Dashboard 2.0](https://github.com/FlowFuse/node-red-dashboard)
 
 ## Installation
 
@@ -21,11 +22,11 @@ cd cisco-vos-nodered-bolierplate
 docker-compose up -d
 ```
 
-Should be able to access Node-Red at http://localhost:1880.
+Access Node-Red at http://localhost:1880, once up and running.
 
-See [Docker Compose](https://docs.docker.com/compose/) for more information.
+## Notes 
 
-Note: Using Node version 18. This includes the Fetch function which is required for the Cisco VOS packages.
+Using Node version 18. This includes the Fetch function which is required for the Cisco VOS packages.
 
 ## Giving Back
 

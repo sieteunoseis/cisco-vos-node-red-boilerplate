@@ -1,7 +1,7 @@
 {
     "name": "cisco-vos-nodered-boilerplate",
     "description": "Simple boilerplate to get you up and running on Node-Red Docker Container with the Cisco VOS packages included.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependencies": {
         "@flowforge/node-red-dashboard": "*",
         "cisco-axl": "*",
