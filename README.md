@@ -28,6 +28,10 @@ Access Node-Red at http://localhost:1880, once up and running.
 
 Using Node version 18. This includes the Fetch function which is required for the Cisco VOS packages.
 
+## Examples
+
+Check out my blog post on [Medium](https://medium.com/automate-builders/low-code-devops-automation-with-node-red-784a868a69b8) for examples.
+
 ## Giving Back
 
 If you would like to support my work and the time I put in creating the code, you can click the image below to get me a coffee. I would really appreciate it (but is not required).
